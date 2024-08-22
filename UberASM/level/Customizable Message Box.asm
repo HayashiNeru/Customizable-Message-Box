@@ -205,11 +205,11 @@ OpenMSG:
 	STA !Pointer : TAY
 	SEP #$20
 
-
-	LDA Messages+16,y : CLC : ADC #$02 :  STA !MsgHeightRam
-
 	;Originally, in place of ‘LDA Messages’, ‘Msg0000’ table should be loaded when !MsgNumRam = #$00,
 	;and ‘Msg0001’ table should be loaded when !MsgNumRam = #$01.
+
+
+	LDA Messages+16,y : CLC : ADC #$02 :  STA !MsgHeightRam
 
 	LDA Messages+17,y : CLC : ADC #$01 : LSR : EOR #$FF : SEC : SBC #$F0 : STA !MsgXPosRam
 	LDA #$05 : STA !MsgYPosRam
