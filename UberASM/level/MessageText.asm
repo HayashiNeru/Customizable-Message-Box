@@ -181,7 +181,7 @@ Msg0005:
 	db $39,$39,$39,$39,$39,$39,$39,$39	;Box Frame Prop(YXPCCCTT)
 
 	  ;  H   W
-	db $07,$12	;H = Height/W = Width,
+	db $08,$11	;H = Height/W = Width,
 
       ;Text YXPCCCTT
 	db %00111001
@@ -197,7 +197,7 @@ Msg0005:
 	db "                 "
 	db "Aww!!            "
 	db "                 "
-	db "F0~F7 = Change   "
+	db "F0-F7 is Change  "
 	db "text color.      "
 	db "                 "
 	db $00,$00,$00,$00,$00,$00,$00,$00
