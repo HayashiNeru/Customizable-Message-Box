@@ -26,13 +26,13 @@ Msg0000:
 	db $00,$00,$00,$00
 ;	End header
 ;	Text start
-	db "This  is not  real"
-	db "message box.      ",$F7
+	db "This    is     not"
+	db "original   message"
+	db "box.              ",$F7
 	db "I think ASM  isn't"
 	db "useful  other than"
 	db "hacking  old  game"
-	db "ROMs.             "
-	db "                  ",$F6
+	db "ROMs.             ",$F6
 	db "I'm ASM beginner. "
 	db $00,$00,$00,$00,$00,$00,$00,$00
 	db $00,$00,$00,$00,$00,$00,$00,$00
@@ -197,8 +197,8 @@ Msg0005:
 	db "                 "
 	db "Aww!!            "
 	db "                 "
-	db "                 "
-	db "                 "
+	db "F0~F7 = Change   "
+	db "text color.      "
 	db "                 "
 	db $00,$00,$00,$00,$00,$00,$00,$00
 	db $00,$00,$00,$00,$00,$00,$00,$00
