@@ -4,3 +4,4 @@
 301 MessageBoxes/CustomableMsgBox01.asm
 302 MessageBoxes/CustomableMsgBox02.asm
 303 MessageBoxes/CustomableMsgBox04.asm
+304 MessageBoxes/CustomableMsgBox05.asm
