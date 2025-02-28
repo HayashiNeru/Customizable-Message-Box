@@ -213,7 +213,7 @@ OpenMSG:
 	STA !MsgHeightRam
 
 	LDY #$0011
-	LDA [!Table_Index],y	; ★★★★★★★★★★★★★★
+	LDA [!Table_Index],y
 	CLC : ADC #$01
 	LSR
 	EOR #$FF
