@@ -1,0 +1,4 @@
+
+MsgList:
+	dl Msg0000, Msg0001, Msg0002, Msg0003, Msg0004, Msg0005, Msg0006, Msg0007
+	dl Msg0008, Msg0009, Msg000A, Msg000B, Msg000C, Msg000D, Msg000E, Msg000F

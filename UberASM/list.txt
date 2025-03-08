@@ -1,0 +1,27 @@
+; UberASM Tool list file.
+; See the readme for detailed information on its format.
+
+; sets verbose level, optional
+verbose: on
+
+; ROM file to use, may be overridden on command line, optional here if so
+rom: ../Test.smc
+
+; Level resources
+level:
+
+142 SMB1 Overworld Gradient.asm
+143 VerticalParallax.asm
+144 Mode0.asm
+; Overworld resources
+overworld:
+
+; Game mode resources
+gamemode:
+14 Customizable_Message_Box/Customizable_Message_Box.asm
+
+; Other code files and free RAM setting.  These don't usually need to be changed.
+global:         other/global_code.asm
+statusbar:      other/status_code.asm
+macrolib:       other/macro_library.asm
+freeram:        $7FAC80                    ; 2 bytes of free RAM

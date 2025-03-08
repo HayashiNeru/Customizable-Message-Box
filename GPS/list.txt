@@ -5,3 +5,10 @@
 302 MessageBoxes/CustomableMsgBox02.asm
 303 MessageBoxes/CustomableMsgBox04.asm
 304 MessageBoxes/CustomableMsgBox05.asm
+305 MessageBoxes/CustomableMsgBox03.asm
+306 MessageBoxes/CustomableMsgBox06.asm
+307 MessageBoxes/CustomableMsgBox07.asm
+308 MessageBoxes/CustomableMsgBox08.asm
+309 MessageBoxes/CustomableMsgBox09.asm
+30A MessageBoxes/CustomableMsgBox0A.asm
+30B MessageBoxes/CustomableMsgBox0B.asm
